@@ -1,0 +1,8 @@
+# AP Computer Science Principles: Game Development with Python
+# Requirements for running course examples and projects
+
+# Pygame Zero - Primary library for course
+pgzero>=1.2.1
+
+# Additional helpful libraries
+pygame>=2.1.0  # Pygame Zero dependency
