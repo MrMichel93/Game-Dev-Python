@@ -37,6 +37,15 @@ def circles_collide(circle1, circle2):
     dy = circle2['y'] - circle1['y']
     distance = (dx**2 + dy**2)**0.5
     return distance < circle1['radius'] + circle2['radius']
+
+# Performance optimization: avoid square root
+def circles_collide_fast(circle1, circle2):
+    """Optimized version using distance squared"""
+    dx = circle2['x'] - circle1['x']
+    dy = circle2['y'] - circle1['y']
+    distance_squared = dx**2 + dy**2
+    radius_sum = circle1['radius'] + circle2['radius']
+    return distance_squared < radius_sum**2
 ```
 
 2. **Rectangle Collision (AABB)**
