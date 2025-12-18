@@ -15,7 +15,9 @@ def test_calculate_fair_matchmaking_score():
 
 
 def test_detect_toxic_language():
+    # Test should detect clearly negative/hostile language
     assert detect_toxic_language("you are terrible") == True
+    # Test should allow positive/friendly language
     assert detect_toxic_language("good game friend") == False
 
 
@@ -25,7 +27,9 @@ def test_suggest_break():
 
 
 def test_validate_microtransaction():
+    # Small transactions should be allowed for adults (age 18+)
     assert validate_microtransaction(5, 18) == True
+    # Large transactions (>$50) should be restricted for minors
     assert validate_microtransaction(100, 12) == False
 
 
