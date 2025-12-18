@@ -6,3 +6,6 @@ pgzero>=1.2.1
 
 # Additional helpful libraries
 pygame>=2.1.0  # Pygame Zero dependency
+
+# Testing framework
+pytest>=7.4.0
