@@ -325,7 +325,7 @@ python3.9 -m pgzero your_game.py
 Once your installation is complete:
 
 1. ✅ Clone or download this course repository
-2. ✅ Navigate to `modules/module_01/`
+2. ✅ Navigate to `modules/01-variables-and-game-state/`
 3. ✅ Read `MODULE_01_LESSON.md`
 4. ✅ Run the example programs
 5. ✅ Start learning!
@@ -338,4 +338,4 @@ Once your installation is complete:
 
 ---
 
-**Ready to start coding?** Head to [Module 1: Variables and Game State](modules/module_01/MODULE_01_LESSON.md)!
+**Ready to start coding?** Head to [Module 1: Variables and Game State](modules/01-variables-and-game-state/MODULE_01_LESSON.md)!

@@ -36,7 +36,7 @@ cd Game-Dev-Python
 
 Run the installation test:
 ```bash
-cd modules/module_01
+cd modules/01-variables-and-game-state
 pgzrun example_game_state.py
 ```
 
@@ -53,12 +53,12 @@ pgzrun example_game_state.py
 1. **Read Module 1 Lesson**
    ```bash
    # Open in your browser or text editor
-   modules/module_01/MODULE_01_LESSON.md
+   modules/01-variables-and-game-state/MODULE_01_LESSON.md
    ```
 
 2. **Run the Examples**
    ```bash
-   cd modules/module_01
+   cd modules/01-variables-and-game-state
    pgzrun example_game_state.py
    ```
 
@@ -231,7 +231,7 @@ pgzrun my_first_game.py
 
 Now that you're set up:
 
-1. ✅ Open [Module 1: Variables and Game State](modules/module_01/MODULE_01_LESSON.md)
+1. ✅ Open [Module 1: Variables and Game State](modules/01-variables-and-game-state/MODULE_01_LESSON.md)
 2. ✅ Read the lesson carefully
 3. ✅ Run the examples
 4. ✅ Complete the practice problems
@@ -259,6 +259,6 @@ Now that you're set up:
 
 **Want to know more about the course?** → [Course Overview](COURSE_OVERVIEW.md)
 
-**Ready to learn?** → [Module 1: Variables and Game State](modules/module_01/MODULE_01_LESSON.md)
+**Ready to learn?** → [Module 1: Variables and Game State](modules/01-variables-and-game-state/MODULE_01_LESSON.md)
 
 **Good luck and have fun! 🚀🎮**

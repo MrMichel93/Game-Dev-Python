@@ -121,8 +121,8 @@ Each starter file includes:
 
 ### Student Workflow
 ```bash
-# 1. Navigate to module
-cd modules/module_03
+# 1. Navigate to module practice problems
+cd modules/03-loops-and-animation/practice_problems
 
 # 2. Edit practice problem
 nano practice_problem_1_starter.py
@@ -163,17 +163,22 @@ Game-Dev-Python/
 ├── PRACTICE_PROBLEMS_GUIDE.md (new)
 ├── .gitignore (new)
 └── modules/
-    ├── module_01/
-    │   ├── practice_problem_1_starter.py (new)
-    │   ├── test_practice_problem_1.py (new)
-    │   ├── test_practice_problem_2.py (new)
-    │   └── test_practice_problem_3.py (new)
-    ├── module_02/
-    │   ├── practice_problem_1_starter.py (new)
-    │   ├── practice_problem_3_starter.py (new)
-    │   ├── test_practice_problem_1.py (new)
-    │   ├── test_practice_problem_2.py (new)
-    │   └── test_practice_problem_3.py (new)
+    ├── 01-variables-and-game-state/
+    │   ├── MODULE_01_LESSON.md
+    │   ├── example_*.py
+    │   ├── project_*.py
+    │   └── practice_problems/
+    │       ├── practice_problem_1_starter.py
+    │       ├── test_practice_problem_1.py
+    │       ├── test_practice_problem_2.py
+    │       └── test_practice_problem_3.py
+    ├── 02-conditionals-and-game-logic/
+    │   └── practice_problems/
+    │       ├── practice_problem_1_starter.py
+    │       ├── practice_problem_3_starter.py
+    │       ├── test_practice_problem_1.py
+    │       ├── test_practice_problem_2.py
+    │       └── test_practice_problem_3.py
     └── ... (modules 3-10 similar structure)
 ```
 
