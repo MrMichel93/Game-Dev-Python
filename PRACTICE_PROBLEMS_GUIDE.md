@@ -20,9 +20,9 @@ Each practice problem consists of:
    pip install -r requirements.txt
    ```
 
-2. **Navigate to a module directory**:
+2. **Navigate to a module's practice problems directory**:
    ```bash
-   cd modules/module_01
+   cd modules/01-variables-and-game-state/practice_problems
    ```
 
 3. **Open a practice problem starter file** and read the instructions:

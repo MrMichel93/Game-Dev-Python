@@ -85,7 +85,7 @@ Examine the societal implications of games and learn to design accessible, ethic
 
 Navigate to any module folder and run the example files:
 ```bash
-cd modules/module_01
+cd modules/01-variables-and-game-state
 pgzrun example_game_state.py
 ```
 
@@ -140,20 +140,22 @@ Game-Dev-Python/
 ├── README.md                   # This file
 ├── requirements.txt            # Python dependencies
 └── modules/
-    ├── module_01/             # Variables and Game State
+    ├── 01-variables-and-game-state/
     │   ├── MODULE_01_LESSON.md
     │   ├── example_*.py
-    │   ├── practice_*.py
-    │   └── project_*.py
-    ├── module_02/             # Conditionals and Game Logic
-    ├── module_03/             # Loops and Animation
-    ├── module_04/             # Lists and Sprite Management
-    ├── module_05/             # Functions and Abstraction
-    ├── module_06/             # Dictionaries and Data Structures
-    ├── module_07/             # Event Handling and Input
-    ├── module_08/             # Collision Detection and Physics
-    ├── module_09/             # Game Design and Creative Development
-    └── module_10/             # Game Impact and Ethics
+    │   ├── project_*.py
+    │   └── practice_problems/
+    │       ├── practice_problem_*_starter.py
+    │       └── test_practice_problem_*.py
+    ├── 02-conditionals-and-game-logic/
+    ├── 03-loops-and-animation/
+    ├── 04-lists-and-sprite-management/
+    ├── 05-functions-and-abstraction/
+    ├── 06-dictionaries-and-game-data-structures/
+    ├── 07-event-handling-and-user-input/
+    ├── 08-collision-detection-and-game-physics/
+    ├── 09-game-design-and-creative-development/
+    └── 10-game-impact-and-ethics/
 ```
 
 ## 🤝 Contributing
@@ -195,6 +197,6 @@ This course curriculum emphasizes:
 
 ---
 
-**Ready to start your game development journey? Begin with [Module 1: Variables and Game State](modules/module_01/MODULE_01_LESSON.md)!**
+**Ready to start your game development journey? Begin with [Module 1: Variables and Game State](modules/01-variables-and-game-state/MODULE_01_LESSON.md)!**
 
 *Created for AP Computer Science Principles students who want to learn programming through the engaging medium of game development.*
